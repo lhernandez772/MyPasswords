@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dont Forget</string>
+    <string name="title_section1">Mis claves</string>
+    <string name="title_section2">Archivadas</string>
+    <string name="title_section3">Papelera</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="parrafo_largo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </string>
+    <string name="parrafo_corto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient monte. </string>
+    <string-array
+        name="colorsArray">
+        <item>#F5F5F5</item> <!--ligth yellow-->
+    </string-array>
+    <!--
+      TextViews
+      -->
+    <string name="no_pass"></string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="txt_user_test">Usuario lhernandez@4geeks.com.ve</string>
+    <string name="txt_pass_test">Clave 19419772</string>
+    <string name="txt_create_at">Registro creado el 24 de diciembre a las 11:44pm</string>
+    <string name="txt_add_note">Agrega una clave</string>
+
+
+
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RememberDontForget/RememberDontForget.iml" filepath="$PROJECT_DIR$/RememberDontForget/RememberDontForget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RememberDontForgetProject.iml" filepath="$PROJECT_DIR$/RememberDontForgetProject.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    android:background="#f0f0f0"
+    android:layout_marginBottom="3dp"
+    >
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView android:id="@android:id/text1"
+            android:textSize="17sp"
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-light"
+            android:text="Probando"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_height="25dp"
+            android:layout_width="25dp"
+            android:src="@drawable/abc_ic_menu_moreoverflow_normal_holo_light"
+            android:layout_alignTop="@android:id/text1"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <TextView android:id="@android:id/text2"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:text="@string/txt_user_test"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView android:id="@+id/text3"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-light"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:text="@string/txt_pass_test"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView android:id="@+id/text3"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-light"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:text="@string/txt_create_at"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        />
+</LinearLayout>
