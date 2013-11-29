@@ -5,8 +5,8 @@
     <ScrollView
         android:id="@+id/scroll"
         android:layout_height="match_parent"
-        android:layout_width="match_parent">
-
+        android:layout_width="match_parent"
+        android:fillViewport="true">
         <LinearLayout
             xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
@@ -18,7 +18,19 @@
             android:paddingRight="6dp"
             android:paddingBottom="5dp"
             tools:context=".MainActivity$PlaceholderFragment">
-
+            <LinearLayout
+                android:id="@+id/linlaHeaderProgress"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ProgressBar
+                    android:id="@+id/pbHeaderProgress"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </ProgressBar>
+            </LinearLayout>
             <LinearLayout android:id="@+id/lista"
                 android:background="#e5e5e5"
                 android:layout_width="match_parent"

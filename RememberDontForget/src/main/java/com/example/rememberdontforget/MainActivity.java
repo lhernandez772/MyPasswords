@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -141,6 +142,8 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
             mContainerView = (ViewGroup)rootView.findViewById(R.id.lista);
             scroll = (ScrollView)rootView.findViewById(R.id.scroll);
+            LinearLayout linlaHeaderProgress = (LinearLayout) rootView.findViewById(R.id.linlaHeaderProgress);
+            new ReadableDbTask(myActContext,linlaHeaderProgress).execute();
             return rootView;
         }
 
